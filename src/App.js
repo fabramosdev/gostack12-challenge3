@@ -14,7 +14,7 @@ function App() {
 
   async function handleAddRepository() {
     const response = await api.post('repositories',{
-      title: 'Desafio Gostack',
+      title: 'Desafio Gostack 12',
       url: 'https://rocketseat.com.br',
       techs: ['React JS', 'React Native', 'Node JS']
     })
